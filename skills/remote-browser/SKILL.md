@@ -75,7 +75,7 @@ browser-use wait selector "css"           # Wait for element (--state visible|hi
 browser-use wait text "text"              # Wait for text to appear
 
 # Cookies
-browser-use cookies get [--url <url>]     # Get cookies (optionally filtered)
+browser-use cookies get     # Get cookies
 browser-use cookies set <name> <value>    # Set cookie (--domain, --secure, --http-only, --same-site, --expires)
 browser-use cookies clear [--url <url>]   # Clear cookies
 browser-use cookies export <file>         # Export to JSON
