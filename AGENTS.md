@@ -276,7 +276,7 @@ async def main():
 
 The agent is executed using the async `run()` method:
 
-* `max_steps` (default: `100`): Maximum number of steps an agent can take.
+* `max_steps` (default: `500`): Maximum number of steps an agent can take.
 
 Check out all customizable parameters <a href="https://docs.browser-use.com/customize/agent/all-parameters"> here</a>.
 
